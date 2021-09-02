@@ -71,6 +71,21 @@ console.log(notFave);
 
 // console.log(notFave);
 
+
+let notFavorites = []
 for (let i = 0; i < genres.length; i++) {
-  for (let j = 0; j < fave.length; j++) {}
+  let currentGenre = genres[i]
+  let foundFavoiteGenre = false
+
+  for (let j = 0; j < fave.length; j++) {
+    if(currentGenre == fave[j].genre) {
+      foundFavoiteGenre = true
+      break
+    }
+
+  }
+}
+
+if(foundFavoiteGenre == false) {
+  notFavorites.push(currentGenre)
 }
