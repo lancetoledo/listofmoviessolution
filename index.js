@@ -70,3 +70,7 @@ console.log(notFave);
 // }
 
 // console.log(notFave);
+
+for (let i = 0; i < genres.length; i++) {
+  for (let j = 0; j < fave.length; j++) {}
+}
